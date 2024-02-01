@@ -1,0 +1,47 @@
+.counter {
+  margin: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.count {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: linear-gradient(30deg, #d4c 0%, #d4c 20%, #a8f 80%, #a8f 100%);
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.clouds {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: #c30;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
